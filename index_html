@@ -1,75 +1,79 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Projetos3ADS</title>
-        <link rel="stylesheet" type="text/css"href="">
-        <meta charset="UTF-8">
-        <script src="jquery.js"></script>
-    <style>
-        .sitetaly{
-            width:1900px ;
-            height:930px ;
-            border:5px solid rgb(17, 14, 172) ;
-            padding:0;
-        }
-        .header{
-            width:1900px;
-            height:150px ;
-            border:1px solid rgb(17, 14, 172) ;
-            padding:0 ;
-        }
+<html lang="PT-BR">
+  <head>
+      <title></title>
+      <link rel="stylesheet" typt="text/css" href="">
+    <meta charset="utf-8">
+    <script scr="jquery.js"></script>
+        <style>
+            .site{
+                width:940px;
+                height:600px;
+                border:2px solid blue );
+                padding:0px;
+            }
+            .header{
+                width:938px;
+                height:50px;
+                border:2px solid blue );
+                padding:0px;
+            }
+            .main{
+                width:938px;
+                height:500px;
+                border:2px solid blue;
+                padding:0px;
+            }
+            .footer{
+                width:938px;
+                height:40px;
+                border:2px solid blue;
+                padding:0px;
+            }
+            .esquerda{
+                width:60px;
+                height:500px;
+                border:2px solid blue;
+                display:inline-block;
+                float:right;
+            }
+             .centro{  
+                width:800px;
+                height:500px;
+                border:2px blue;
+                display:inline-block;
+                float:right;
 
-        .main{
-            width:1900px;
-            height:630px ;
-            border:2px solid rgb(17, 14, 172) ;
-            padding:0 ;
+             }
+             .direita{
+                width:800px;
+                height:500px;
+                border:2px blue;
+                display:inline-block;
+                float:right;
 
-        }
+             }
+                 </style>
+  </head>
+ <body>
+    <div class="site">
+        <div class="header">
 
-        .footer{
-            width:1900px;
-            height:145px ;
-            border:3px solid rgb(17, 14, 172) ;
-            padding:0 ;
-        }
-        .esquerda{
-            width:130px;
-            height:630px ;
-            border:3px solid rgb(17, 14, 172) ;
-            display: inline-block;
-            float:right ;
-        }
-        .centro{
-            width:150px;
-            height:10px ;
-            border:3px solid rgb(17, 14, 172) ;
-            display: inline-block;
-            float: right;
-
-        }
- </style>
-    </head>
-    <body>
-    <div class="sitetaly">
-
-        <div class="header"></div>
-
-        
-        <div class="main">
-
-            <div class="esquerda"></div>
-
-
-            <div class="centro"></div>
-
-            <div class="direita"></div>
         </div>
+        <div class="main">
+            <div class="esquerda">
+   
+            </div>
+                <div class="centro">
 
-        <div class="footer"></div>
+                </div>
+                <div class="direita">
 
+                </div>
     </div>
+        <div class="footer">
+
+        </div>
+      </div>
  </body>
 </html>
