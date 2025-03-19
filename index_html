@@ -1,79 +1,246 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
-  <head>
-      <title></title>
-      <link rel="stylesheet" typt="text/css" href="">
-    <meta charset="utf-8">
-    <script scr="jquery.js"></script>
-        <style>
-            .site{
-                width:940px;
-                height:600px;
-                border:2px solid blue );
+<html lang="pt-br">
+
+    <head>
+      <div class="div4"></div> 
+      <http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+      <title>Projeto ADS</title>
+      <link rel="stylesheet" type="text/css" href=""> 
+      <meta charset="UTF-8">
+      <script src="jquery.js"></script>
+            
+      <style>
+        .site{
+                width: 1899px;
+                height:930px;
                 padding:0px;
-            }
+        }
             .header{
-                width:938px;
-                height:50px;
-                border:2px solid blue );
-                padding:0px;
+                width:1899px;
+                height:150px;
+                 padding:0px;
+                 background-color: #9f2cf1 ;
             }
             .main{
-                width:938px;
-                height:500px;
-                border:2px solid blue;
-                padding:0px;
-            }
-            .footer{
-                width:938px;
-                height:40px;
-                border:2px solid blue;
-                padding:0px;
+                width:1899px;
+                height:700px;
+                background-color:  #998fbc ;
             }
             .esquerda{
-                width:60px;
-                height:500px;
-                border:2px solid blue;
+                width:300px;
+                height:700px;
                 display:inline-block;
                 float:right;
+                background-color: #8f53ee ;
             }
-             .centro{  
-                width:800px;
-                height:500px;
-                border:2px blue;
-                display:inline-block;
+            .esquerda1{
+                width:inherit ;
+                height: 33%;
+                background-color: #2cce62dc;
+            }
+            .esquerda2{
+                width: inherit;
+            height: 33%;
+            background-color:#b6e72e ;
+        }
+        .esquerda3{
+            width: inherit;
+            height: 34%;
+            background-color:#32eb2f ;
+        }
+        
+        
+        .direita{
+            width: 300px;
+            height: 700px;
+            background-color: #9370DB;
+        }
+        .direita1{
+            width:inherit ;
+            height: 50%;
+            background-color: #194277;
+        }
+        
+        .direita2{
+            width: inherit;
+            height: 50%;
+            background-color:#e4e14d ;
+        }
+        
+        .footer{
+            width:1899px;
+            height:70px;
+            background-color:  #4B0082;
+        }               
+        .cabeça1{
+            width:25% ;
+            height:inherit ;
+            background-color:rgba(48, 2, 85, 0.881) ;
+            float: initial;
+            display: inline-block;
+            
+        }
+        .cabeça2{
+            width: 25%;
+            height: inherit;
+            background-color:rgba(135, 110, 224, 0.807) ;
+            float: inline-start;
+            display: inline-block;    
+        }
+        .cabeça3{
+            width:25% ;
+            height: inherit;
+            background-color: rgb(214, 52, 24);
+            float: inline-start;
+            display: inline-block;
+        }
+        .cabeça4{
+            width: 25%;
+            height: inherit;
+            background-color: rgb(9, 140, 51);
+            float: inline-start;
+            display: inline-block;
+        }
+        .pé1{
+            width: 25%;
+            height: inherit;
+            background-color:rgb(18, 180, 18);
+            float: inline-start;
+            display: inline-block;
+         }
+         .pé2{
+             width: 25%;
+             height: inherit;
+            background-color: rgba(196, 97, 17, 0.694);
+            float: inline-start;
+            display: inline-block;
+        }
+        .pé3{
+            width: 25%;
+            height: inherit;
+            background-color: rgba(9, 214, 187, 0.58);
+            float: inline-start;
+            display: inline-block;
+         }
+         .pé4{
+            width: 25%;
+            height: inherit;
+            background-color: rgba(136, 32, 32, 0.686);
+            float: inline-start;
+            display: inline-block;
+        }
+        .centro{  
+            width:1300px;
+            height:inherit; 
+            display:inline-block;
+            float:right;
+            background-color:#D8BFD8;
+        }
+    
+         .metadeA{
+             width: inherit;
+             height: 50%;
+             display: inline-block ;
+             float: right ;
+             background-color: rgb(157, 9, 226);
+            }
+        .metade1{
+            width: 50%;
+            height:100%;
+            display: inline-block;
+            float: inline-start;
+            background-color: #c06d01db;
+        }
+        .metade2{
+            width: 50%;
+            height: 100%;
+            display: inline-block;
+            float: inline-start;
+            background-color: rgb(255, 0, 0);
+        }
+            
+         .metadeB{
+                width:100% ;
+                height: 100%;
+                background-color: rgb(255, 0, 85);  
+         }
+         .metade3{
+                width:34% ;
+                height: 50%;
+                background-color: rgb(126, 0, 84);  
+                display: inline-block;
+                float: right;
+         }
+         .metade4{
+                width:33% ;
+                height: 50%;
+                background-color: rgb(0, 174, 255);  
+                display: inline-block;
                 float:right;
-
-             }
-             .direita{
-                width:800px;
-                height:500px;
-                border:2px blue;
-                display:inline-block;
-                float:right;
-
-             }
-                 </style>
-  </head>
- <body>
-    <div class="site">
-        <div class="header">
-
-        </div>
-        <div class="main">
-            <div class="esquerda">
-   
+         }
+         .metade5{
+                width:33% ;
+                height: 50%;
+                background-color: rgb(0, 26, 255)z;  
+                display: inline-block;
+                float: right;
+         }
+            
+        </style>    
+    </head>
+    <body>
+        <div class="site">
+            <div class="header"> 
+                <div class="cabeça1"></div>
+                <div class="cabeça2"></div>
+                <div class="cabeça3"></div>
+                <div class="cabeça4"></div>    
             </div>
-                <div class="centro">
+              
+            <div class="main"> 
+                
+             <div class="esquerda">
+                   <div class="esquerda1"></div>
+                   <div class="esquerda2"></div>
+                   <div class="esquerda3"></div>
+             </div>
+             
+          <div class="centro">
+            <div class="metadeA">
 
-                </div>
-                <div class="direita">
+                    <div class="metade1"></div>
+                    <div class="metade2"></div>
 
-                </div>
-    </div>
-        <div class="footer">
+            </div>
+            <div class="metadeB">
 
-        </div>
+                     <div class="metade3"></div>
+                     <div class="metade4"></div>
+                     <div class="metade5"></div>
+
+            </div>
+          </div>
+           
+          <div class="direita">
+                <div class="direita1"></div> 
+                
+                <div class="direita2"></div>
+            </div> 
+
+             
+            </div>
+
+      <div class="footer">
+        <div class="pé1"></div>
+        <div class="pé2"></div>
+        <div class="pé3"></div>
+        <div class="pé4"></div>
       </div>
- </body>
-</html>
+      
+    </div>
+    
+    
+  </body>
+  </html>
